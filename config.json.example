@@ -1,8 +1,20 @@
 {
-    "track": "./tracks.tck",
-    "parc": "./parc.nii.gz",
-    "label": "./labels.json",
+
+    "track": "/N/home/u010/bcmcpher/Carbonate/fine-data/tracks.tck",
+    "parc": "/N/home/u010/bcmcpher/Carbonate/fine-data/schaefer100.nii.gz",
+    "label": "/N/home/u010/bcmcpher/Carbonate/fine-data/schaefer100_label.json",
+    "mname": "fa",
+    "lnet": "dice",
+    "fa": "/N/home/u010/bcmcpher/Carbonate/fine-data/dt6_fa.nii.gz",
+    "fe": "/N/home/u010/bcmcpher/Carbonate/fine-data/output_fe.mat",
     "maxDist": 2,
-    "minStrm": 5
+    "minStrm": 15,
+    "clean": false,
+    "shapes": false,
+    "minLength": 20,
+    "maxVars": 4,
+    "maxLengthStd": 4, 
+    "numNodes": 100,
+    "maxIter": 10
 
 }
